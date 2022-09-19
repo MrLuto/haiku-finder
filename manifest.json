@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Haiku finder",
+    "description": "An extension that searches for a Haiku",
+    "version": "1.0",
+    "options_ui": {
+        "page":"option.html",
+        "open_in_tab": false
+    },
+    "icons": {
+        "16": "/images/16-1.png",
+        "48": "/images/48-1.png",
+        "128": "/images/128-1.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["main.js"]
+    }]
+}
