@@ -4,6 +4,9 @@
 This is a chrome extension that will search for haiku's and notify you when it finds one.
 
 
+!!!!!!!!! Alert this project is still a work in progress !!!!!!!!!!!
+
+
 ## Deployment
 
 This project is still in developement
