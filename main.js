@@ -6,13 +6,18 @@ function find_syllables(word) {
       word = word.replace(/^y/, '');                                 
       return word.match(/[aeiouy]{1,2}/g).length;                    
 }
-function
+
 
 var h1s = document.getElementsByTagName("h1");
 for (var i = 0; i < h1s.length; i++) {
-    var h1 = h1s[i];
-    console.log(h1.innerHTML)
+    var h1 = h1s[i].innerText;
+
+    console.log(h1)
+    //#TODO check if var h1 is a haiku
 }
+
+// #TODO add the part above for h2-h6 and p
+
 chrome.storage.sync.get({
   favoriteoutput: 'console',
 }, function(items) {
@@ -29,7 +34,6 @@ chrome.storage.sync.get({
         alert(output);
         break;
       default:
-        
     }
   }
 });
