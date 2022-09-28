@@ -30,6 +30,7 @@ select the folder
 ## Acknowledgements
 
  - [Tutorial I used to learn chrome extensions](https://www.youtube.com/watch?v=uV4L-wcnK3Y&t=1s)
+ - [get the text inside a html tag](https://stackoverflow.com/questions/16949443/get-contents-of-h1-convert-them-it-to-text-and-set-as-a-title-of-the-page)
 
 
 ## Authors

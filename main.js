@@ -10,9 +10,17 @@ function find_syllables(word) {
 
 var h1s = document.getElementsByTagName("h1");
 for (var i = 0; i < h1s.length; i++) {
-    var h1 = h1s[i].innerText;
+    var h1 = h1s[i].innerText.split(' ');
 
-    console.log(h1)
+    h1.forEach(myFunction);
+
+    function myFunction(item) {
+      if (item === "" || item === "\n") {
+      } else {
+        if (find_syllables(item) === 5)
+          console.log(item)
+      }
+    }
     //#TODO check if var h1 is a haiku
 }
 
